@@ -1,0 +1,52 @@
+.form-component-wrapper {
+    gap: 1rem;
+    display: flex;
+    padding: 4rem 1rem;
+    max-width: 500px;
+    margin: 5rem auto;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+    background-color: rgba(220, 45, 45, 0.15);
+}
+
+.taskForm-wrapper {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-raw {
+    gap: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-title {
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.task-description {
+    height: 35px;
+    resize: vertical;
+    padding: 5px 10px;
+}
+
+.task-priority {
+    height: 45px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.task-status {
+    height: 45px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: end;
+}

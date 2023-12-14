@@ -1,0 +1,31 @@
+#root {
+  width: 100%;
+  align-self: normal;
+}
+
+.active-style {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
+  z-index: 1;
+  width: 100px;
+  color: #fff;
+  padding: 2px 0;
+  font-size: 14px;
+  visibility: hidden;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  background-color: #396823;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}

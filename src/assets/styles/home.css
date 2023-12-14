@@ -1,0 +1,9 @@
+.home-wrapper {
+    margin: 2rem;
+}
+
+.home-cards {
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}

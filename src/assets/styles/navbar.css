@@ -1,0 +1,18 @@
+.navComponent {
+    padding: 2rem;
+    background-color: slategray;
+}
+
+.nav-list {
+    gap: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-item > a {
+    color: black;
+}
+
+.nav-list > li {
+    list-style-type: none;
+}
